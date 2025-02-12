@@ -1,5 +1,6 @@
 name: setup_dart
 description: The setup-dart GitHub Action - download and setup the Dart SDK.
+version: 1.0.0+1  # ← تأكد من وجود هذا السطر!
 
 publish_to: none
 
@@ -7,6 +8,8 @@ environment:
   sdk: ^3.3.0
 
 dependencies:
+  flutter:
+      sdk: flutter
   path: ^1.8.0
   pub_semver: ^2.1.0
 
